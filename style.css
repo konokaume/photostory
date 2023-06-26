@@ -631,8 +631,9 @@ html {
   }
   
  .main-menu ul li a {
-  padding: 10px 20px;
-  }
+   font-size: .8rem;
+   padding: 10px 20px;
+ }
   
   .menu ul li a {
     font-size: .8rem;
