@@ -1,0 +1,658 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+/**背景**/
+body {
+  background-color: rgb(255, 193, 105);
+}
+
+body#mizukurage {
+  background: url("images/mizukurage.jpg") no-repeat;
+  background-size: cover;
+}
+
+body#koi {
+  background: url("images/koi.jpg") no-repeat;
+  background-size: cover;
+}
+
+body#tutuzitoageha {
+  background: url("images/tutuzitoageha.jpg") no-repeat;
+  background-size: cover;
+}
+
+body#amagaeru {
+  background: url("images/amagaeru.jpg") no-repeat;
+  background-size: cover;
+}
+
+body#tanikusyokubutu {
+  background: url("images/tanikusyokubutu.jpg") no-repeat;
+  background-size: cover;
+}
+
+body#huzi {
+  background: url("images/huzi.jpg") no-repeat;
+  background-size: cover;
+}
+
+body#azisai {
+  background: url("images/azisai.jpg") no-repeat;
+  background-size: cover;
+}
+
+body#sinnboku {
+  background: url("images/sinnboku.jpg") no-repeat;
+  background-size: cover;
+}
+
+body#ranntenn {
+  background: url("images/ranntenn.jpg") no-repeat;
+  background-size: cover;
+}
+
+
+body#egonoki {
+  background: url("images/egonoki.jpg") no-repeat;
+  background-size: cover;
+}
+
+body#yuuyaketohikoukigumo {
+  background: url("images/yuuyaketohikoukigumo.jpg") no-repeat;
+  background-size: cover;
+}
+
+body#yorunotuuro {
+  background: url("images/yorunotuuro.jpg") no-repeat;
+  background-size: cover;
+}
+
+body#ariakekai {
+  background: url("images/ariakekai.jpg") no-repeat;
+  background-size: cover;
+}
+
+body#kikutya {
+  background: url("images/kikutya.jpg") no-repeat;
+  background-size: cover;
+}
+
+body#baniraaisu {
+  background: url("images/baniraaisu.jpg") no-repeat;
+  background-size: cover;
+}
+
+body#beads {
+  background: url("images/beads.jpg") no-repeat;
+  background-size: cover;
+}
+
+/************/
+
+
+/**本体背景**/
+#wrap {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+}
+
+#kurage {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(221, 168, 251);
+}
+
+#ooguti {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(133, 148, 203);
+}
+
+#tutuzi {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(238, 96, 122);
+}
+
+#kaeru {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(245, 230, 160);
+}
+
+#taniku {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(74, 111, 139);
+}
+
+#huzidana {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(145, 121, 151);
+}
+
+#ame {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(195, 222, 255);
+}
+
+#sinn {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(180, 145, 145);
+}
+
+#rann {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(255, 233, 90);
+}
+
+#ego {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(255, 249, 223);
+}
+
+#yuuyake {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(248, 217, 180);
+}
+
+#tuuro {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(62, 24, 8);
+}
+
+#ariake {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(125, 135, 145);
+}
+
+#tya {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(229, 236, 186);
+}
+
+#aisu {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(178, 95, 39);
+}
+
+#bead {
+  width: 80%;
+  margin: auto;
+  background-color: rgb(253, 246, 244);
+}
+
+/************/
+
+/**タイトル〜メニュー**/
+header {
+  background-color: rgb(47, 56, 68);
+  color: white;
+  padding: 20px 0px 0px 0px;
+  position: sticky;
+  top: 0;
+}
+
+header h1 {
+  font-size: 2.7rem;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Zen Maru Gothic', sans-serif;
+  font-family: 'Lora', serif;
+  margin-left: 35px;
+}
+
+header h1 a {
+  font-size: 2.7rem;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Zen Maru Gothic', sans-serif;
+  font-family: 'Lora', serif;
+}
+
+header h3 {
+  font-size: .8rem;
+  font-family: 'Zen Maru Gothic', sans-serif;
+  padding: 5px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.main-menu {
+  background-color: rgb(85, 95, 95);
+}
+
+.main-menu ul {
+  display: flex;
+  justify-content: center;
+}
+
+.main-menu ul li a {
+  background-color: rgb(85, 95, 95);
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Zen Maru Gothic', sans-serif;
+  font-family: 'Lora', serif;
+  font-size: 1.2rem;
+
+  display: block;
+  padding: 12px 30px;
+}
+
+.main-menu ul li a:hover {
+  background-color: rgb(47, 56, 68);
+  color: rgb(255, 193, 105);
+}
+
+/*子ページ*/
+.menu ul {
+  display: flex;
+  justify-content: right;
+}
+
+.menu ul li a {
+  color: white;
+  font-family: 'Zen Maru Gothic', sans-serif;
+  font-size: 1.1em;
+  display: block;
+  margin-left: 20px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+}
+
+.menu ul li a:hover {
+  color: rgb(255, 193, 105);
+}
+
+menu {
+  position: absolute;
+  right: 20px;
+  bottom: 10px;
+}
+
+/******************/
+
+/*index*/
+main {
+  padding: 40px;
+  color: rgb(47, 56, 68);
+}
+
+.introduction h2 {
+  font-family: 'Playfair Display', serif;
+  font-family: 'Zen Maru Gothic', sans-serif;
+  font-family: 'Lora', serif;
+  font-size: 2rem;
+  margin-top: 35px;
+  margin-bottom: 10px;
+}
+
+.introduction img {
+  width: 100%;
+  image-rendering: center;
+}
+
+.works {
+  padding: 15px;
+}
+
+.works h2 {
+  font-family: 'Playfair Display', serif;
+  font-family: 'Zen Maru Gothic', sans-serif;
+  font-family: 'Lora', serif;
+  font-size: 2rem;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.works h4 {
+  font-size: 1.2rem;
+  padding: 0px 0px 0px 7px;
+}
+
+.works ul {
+  display: flex;
+}
+
+.works li {
+  width: 50%;
+}
+
+.works img {
+  padding: 15px 0px 0px 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+section ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+}
+
+section p a:hover {
+  color: rgb(255, 193, 105);
+}
+
+section p a {
+  color: rgb(42, 42, 42);
+  font-size: 1rem;
+  padding: 0px 0px 0px 20px;
+  font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+/*index end*/
+
+/**子ページ**/
+/*black*/
+.Photo-black h2 {
+  color: rgb(42, 42, 42);
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.Photo-black img {
+  width: 100%;
+  image-rendering: center;
+}
+
+.Story-black h2 {
+  color: rgb(42, 42, 42);
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+
+.Story-black h3 {
+  color: white;
+  font-size: 1.2rem;
+  padding: 80px 25px 170px 30px;
+}
+
+.Story-black p {
+  color: rgb(42, 42, 42);
+  margin-bottom: 50px;
+  font-size: 1.1rem;
+  font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+/*white*/
+.Photo-white h2 {
+  color: white;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.Photo-white img {
+  width: 100%;
+  image-rendering: center;
+}
+
+.Story-white h2 {
+  color: white;
+  margin-top: 70px;
+  margin-bottom: 15px;
+}
+
+.Story-white h3 {
+  color: white;
+  font-size: 1.2rem;
+  padding: 80px 25px 170px 30px;
+}
+
+.Story-white p {
+  color: white;
+  margin-bottom: 50px;
+  font-size: 1.1rem;
+  font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+/*******************/
+
+footer {
+  font-family: 'Zen Maru Gothic', sans-serif;
+  text-align: center;
+  padding: 40px;
+  height: 30px;
+  background-color: rgb(42, 42, 42);
+  color: white;
+}
+
+a.pagetop {
+  display: block;
+  width: 50px;
+  height: 45px;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 12px;
+  border-radius: 10px;
+  background-color: rgba(42, 42, 42, .9);
+  color: #FFF;
+  position: fixed;
+  bottom: 20px;
+  right: 22px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+/*タブレット用*/
+@media all and (max-width: 1024px) {
+
+  /****背景****/
+  #wrap {
+    width: 100%;
+    background-color: rgb(255, 193, 105);
+  }
+
+  #kurage {
+    background-color: rgb(221, 168, 251);
+    width: 100%;
+  }
+
+  #ooguti {
+    background-color: rgb(133, 148, 203);
+    width: 100%;
+  }
+
+  #tutuzi {
+    background-color: rgb(238, 96, 122);
+    width: 100%;
+  }
+
+  #kaeru {
+    background-color: rgb(245, 230, 160);
+    width: 100%;
+  }
+
+  #taniku {
+    background-color: rgb(74, 111, 139);
+    width: 100%;
+  }
+
+  #huzidana {
+    background-color: rgb(145, 121, 151);
+    width: 100%;
+  }
+
+  #ame {
+    background-color: rgb(195, 222, 255);
+    width: 100%;
+  }
+
+  #sinn {
+    background-color: rgb(180, 145, 145);
+    width: 100%;
+  }
+
+  #rann {
+    background-color: rgb(255, 233, 90);
+    width: 100%;
+  }
+
+  #ego {
+    background-color: rgb(255, 249, 223);
+    width: 100%;
+  }
+
+  #yuuyake {
+    background-color: rgb(248, 217, 180);
+    width: 100%;
+  }
+
+  #tuuro {
+    background-color: rgb(62, 24, 8);
+    width: 100%;
+  }
+
+  #ariake {
+    background-color: rgb(125, 135, 145);
+    width: 100%;
+  }
+
+  #tya {
+    background-color: rgb(229, 236, 186);
+    width: 100%;
+  }
+
+  #aisu {
+    background-color: rgb(178, 95, 39);
+    width: 100%;
+  }
+
+  #bead {
+    background-color: rgb(253, 246, 244);
+    width: 100%;
+  }
+
+  /*********/
+
+  header h1 {
+    font-size: 2.5rem;
+  }
+
+  header h1 a {
+    color: white;
+    font-size: 2.5rem;
+  }
+
+  .main-menu ul li a {
+    font-size: 1rem;
+  }
+
+  .menu ul li a {
+    font-size: 1rem;
+  }
+
+  main#white {
+    color: white;
+  }
+
+  main#black {
+    color: rgb(47, 56, 68);
+  }
+
+  .works h4 {
+    font-size: 1rem;
+    padding: 10px 0px 0px 0px;
+  }
+
+  .works li {
+    width: 50%;
+  }
+
+  .works img {
+    padding: 15px 0px 0px 0px;
+    width: 95%;
+    box-sizing: border-box;
+  }
+
+  section p a {
+    color: white;
+    padding: 0px 0px 0px 3px;
+  }
+
+  section p a:hover {
+    color: rgb(47, 56, 68);
+  }
+
+  .Story-black p {
+    font-size: 1rem;
+  }
+
+  .Story-white p {
+    font-size: 1rem;
+  }
+
+  footer {
+    font-size: .9rem;
+  }
+
+  a.pagetop {
+    right: 10px;
+  }
+}
+
+
+
+
+/*スマホ用*/
+@media all and (max-width: 599px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  header h1 a {
+    color: white;
+    font-size: 2rem;
+  }
+
+  header h3 {
+    margin-bottom: 15px;
+  }
+
+  .menu ul li a {
+    font-size: .8rem;
+  }
+
+  .introduction h2 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+  }
+
+  .works h2 {
+    font-size: 1.5rem;
+  }
+
+  .works h4 {
+    padding: 0px 0px 0px 5px;
+    font-size: .9rem;
+  }
+
+  .works li {
+    width: 100%;
+  }
+
+  footer {
+    font-size: .8rem;
+  }
+}
